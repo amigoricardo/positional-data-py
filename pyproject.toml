@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "positional-data"
+version = "0.1.0"
+description = "Positional data converter"
+authors = ["Ricardo Amigo <amigo@urbex.city>"]
+readme = "README.md"
+packages = [{include = "positional_data"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = {extras = ["all"], version = "^0.7.0"}
+
+[tool.poetry.scripts]
+positional-data = "positional_data.main:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

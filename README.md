@@ -1,2 +1,2 @@
-# positional-data
+# Positional Data
 Positional data converter
