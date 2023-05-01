@@ -1,5 +1,5 @@
 # Positional Data
-Convertion of positional data files to csv.
+Conversion of positional data files to csv.
 
 ## Installation
 1. Install `pipx`:
